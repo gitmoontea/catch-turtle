@@ -63,9 +63,6 @@ def turtle_random_move():
         turtle_instance.hideturtle()
 
 
-turtle_random_move()
-
-
 def countdown_timer():
     global second
     timer_instance.clear()
@@ -80,6 +77,7 @@ def countdown_timer():
         timer_instance.write(f"{text}", font=text_font)
 
 
+turtle_random_move()
 countdown_timer()
 
 
